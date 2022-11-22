@@ -22,10 +22,16 @@ body {
 }
 .logo {
   font-size: 24px;
-  color: #f9faf8;
   border: 2px solid rgb(176, 173, 173);
   border-radius: 5px;
   padding: 3px;
+}
+.logo a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.logo a:hover{
+    color: var(--action-color);
 }
 ul {
   list-style: none;
@@ -35,6 +41,13 @@ ul {
 }
 .nav {
   padding-left: 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+.nav a:hover{
+    color: var(--action-color);
 }
 .introduction-section {
   margin-top: 80px;
@@ -46,7 +59,7 @@ ul {
 }
 .image-introduction img {
   width: 400px;
-  height: 200px;
+  height: 220px;
 }
 
 .hero-main {
@@ -127,15 +140,22 @@ h2 {
   border: 1px solid white;
   margin-top: -20px;
 }
-.footer{
-    background-color: var(--background-color);
-    margin-top: 100px;
-    padding: 20px 10px 10px;
-    text-align: center;
+.footer {
+  background-color: var(--background-color);
+  margin-top: 100px;
+  padding: 20px 10px 10px;
+  text-align: center;
 }
-.footer p{
-    color: white;
+.footer p {
+  color: white;
 }
-.footer a{
-    text-decoration: none;
+.footer a {
+  text-decoration: none;
+}
+.head-section .active{
+    color: var(--action-color)
+}
+.subpage{
+    padding: 10px 10px 5px;
+   
 }
