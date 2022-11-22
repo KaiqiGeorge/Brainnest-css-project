@@ -1,0 +1,129 @@
+:root {
+  --background-color: #1f2937;
+  --action-color: #3882f6;
+  --text-color: #1f2937;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  margin: auto;
+  max-width: 1000px;
+}
+.container {
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+.head-section {
+  margin-top: 100px;
+  padding: 10px 100px 80px 100px;
+  background-color: var(--background-color);
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  border: 2px solid rgb(176, 173, 173);
+  border-radius: 5px;
+  padding: 3px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+.nav {
+  padding-left: 10px;
+}
+.introduction-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.word-introduction {
+  padding-right: 20px;
+}
+.image-introduction img {
+  width: 400px;
+  height: 200px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+.hero-secondary,
+.nav-bar {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.projects {
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 100px 80px 100px;
+}
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: var(--text-color);
+}
+.projects-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.projects-display img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--action-color);
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.projects-display figcaption {
+  font-weight: 100;
+  opacity: 0.7;
+  margin-left: 25px;
+  position: relative;
+  text-align: center;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 70px 160px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+.quote-section figcaption {
+  text-align: end;
+  margin-right: 30px;
+  font-weight: 2000;
+  opacity: 1;
+  font-style: normal;
+  color: black;
+}
+.contact {
+  background-color: var(--action-color);
+  margin-top: 60px;
+  border-radius: 7px;
+  padding: 20px 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 80%;
+  margin-left: 100px;
+}
+.contact .work-together {
+  margin-right: 260px;
+}
+.contact button {
+  border: 1px solid white;
+  margin-top: -20px;
+}
