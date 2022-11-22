@@ -229,6 +229,7 @@ p {
   padding: 10px 10px;
   border-radius: 5px;
   margin-right: 10px;
+  color: white;
 }
 .contact input {
   margin-bottom: 10px;
@@ -237,17 +238,22 @@ p {
   margin-top: 20px;
   color: white;
   padding: 2px 15px;
+  border: 1px solid white;
 }
 .contact button:hover {
   background-color: white;
   color: var(--background-color);
 }
+.contact h3 {
+  color: white;
+}
 .contact a {
   position: relative;
   text-align: start;
   text-decoration: none;
+  margin-left: -80px;
 }
 .contact .github,
 .linkedin {
-  margin-left: -25px;
+  margin-right: 100px;
 }
