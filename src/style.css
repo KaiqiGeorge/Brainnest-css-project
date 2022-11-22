@@ -127,3 +127,15 @@ h2 {
   border: 1px solid white;
   margin-top: -20px;
 }
+.footer{
+    background-color: var(--background-color);
+    margin-top: 100px;
+    padding: 20px 10px 10px;
+    text-align: center;
+}
+.footer p{
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+}
