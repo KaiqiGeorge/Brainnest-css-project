@@ -7,19 +7,22 @@ body {
   font-family: "Roboto", sans-serif;
   align-items: center;
   margin: auto;
-  max-width: 1000px;
 }
-.container {
+.container-homepage {
+  width: 100%;
   display: block;
   margin: auto;
   align-items: center;
+  background-color: var(--background-color);
+  padding: 10px 180px 100px;
 }
 .head-section {
-  margin-top: 100px;
-  padding: 10px 100px 80px 100px;
+  padding-top: 8px;
   background-color: var(--background-color);
   align-items: center;
+  padding-bottom: 20px;
 }
+
 .logo {
   font-size: 24px;
   border: 2px solid rgb(176, 173, 173);
@@ -40,7 +43,7 @@ ul {
   margin-top: -30px;
 }
 .nav {
-  padding-left: 30px;
+  padding-left: 50px;
 }
 .nav a {
   text-decoration: none;
@@ -55,20 +58,18 @@ ul {
   justify-content: space-around;
 }
 .word-introduction {
-  padding-right: 20px;
   text-align: start;
-  color: var(--background-color)!important;
-  opacity: 1;
+  margin-right: 20px;
 }
 .image-introduction img {
-  width: 400px;
-  height: 220px;
+  width: 500px;
+  height: 230px;
 }
-.word-introduction h1{
-    color: black;
+.word-introduction h1 {
+  color: white;
 }
-.word-introduction p{
-    color: black;
+.word-introduction p {
+  color: white;
 }
 
 .hero-main {
@@ -78,6 +79,8 @@ ul {
 }
 .hero-secondary {
   text-align: start;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .hero-secondary,
 .nav-bar {
@@ -91,7 +94,7 @@ ul {
   padding: 10px 100px 80px 100px;
 }
 h2 {
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
   font-size: 36px;
   font-weight: extra-bold;
@@ -264,4 +267,10 @@ p {
 .contact .github,
 .linkedin {
   margin-right: 100px;
+}
+.container-aboutMe,.container-contact{
+    width: 100%;
+}
+.contat-form{
+    padding: 0px 50px;
 }
