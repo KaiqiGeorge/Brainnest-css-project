@@ -57,10 +57,18 @@ ul {
 .word-introduction {
   padding-right: 20px;
   text-align: start;
+  color: var(--background-color)!important;
+  opacity: 1;
 }
 .image-introduction img {
   width: 400px;
   height: 220px;
+}
+.word-introduction h1{
+    color: black;
+}
+.word-introduction p{
+    color: black;
 }
 
 .hero-main {
